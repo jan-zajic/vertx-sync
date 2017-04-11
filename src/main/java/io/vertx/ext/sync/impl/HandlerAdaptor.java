@@ -10,6 +10,7 @@ import io.vertx.core.Handler;
 public abstract class HandlerAdaptor<T> extends FiberAsync<T, Throwable> implements Handler<T>  {
 
   @Override
+  @Suspendable
   public void handle(T res) {
     asyncCompleted(res);
   }
