@@ -2,6 +2,7 @@ package io.vertx.ext.sync.impl;
 
 import co.paralleluniverse.fibers.FiberAsync;
 import io.vertx.core.Handler;
+import co.paralleluniverse.fibers.Suspendable;
 
 /**
  *
