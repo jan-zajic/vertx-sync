@@ -39,7 +39,6 @@
       <groupId>co.paralleluniverse</groupId>
       <artifactId>quasar-core</artifactId>
       <version>${quasar-core.version}</version>
-      <classifier>jdk8</classifier>
       <exclusions>
         <exclusion>
           <groupId>org.latencyutils</groupId>
